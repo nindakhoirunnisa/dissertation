@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width,
+				initial-scale=1.0"
+		/>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300&display=swap" rel="stylesheet">
+	</head>
+
+	<body>
+        <div class="container">
+            <div class="vis-container" style="width: 1250px; height: 500px;">
+                <div id="bar-chart-title"></div>
+                <div class="map-container" style="height: 500px;">
+                    <svg width="1250" height="600"></svg>
+                    <div id="color-legend-container">
+                        <div id="dateSliderContainer" class="slider">
+                            <div class="value-min"></div>
+                            <input type="range" id="dateSlider">
+                            <div id="sliderTooltip" class="tooltip"></div>              
+                            <div class="value-max"></div>
+                            <!-- <div id="selectedDate" class="selected-date"></div> -->
+                            <!-- <p id="selectedDate"></p> -->
+                        </div>
+                    </div>
+                </div>
+                <div id="map-tooltip" class="tooltip"></div>
+                <div id="additional-vis">
+                    <div id="bar-container">
+                    </div>
+                    <div id="pie-container">
+                    </div>
+                    <div id="line-container">
+                    </div>
+                    <div id="line-tooltip"></div>
+                </div>
+            </div>
+            <div id="filters" style="width: 200px;">
+                <!-- <div id="sentimentFilter", style="width: 100%; height: 60px;">
+                    <label> <input type="checkbox" id="negativeCheckbox" value="2" checked> Credible and Factual </label>
+                    <label> <input type="checkbox" id="neutralCheckbox" value="1"> Credible </label>
+                    <label> <input type="checkbox" id="positiveCheckbox" value="0"> Not credible </label>
+                </div> -->
+                <div id="box-sentindo">
+                    <div id="empty"></div>
+                    <div id="sentindo">
+                        Senti Indo News
+                    </div>
+                </div>
+                <div id="credibility">
+                    <div id="cred-title">
+                        Credibility
+                    </div>
+                    <div class="credibilityFilter" style="width: 110%;">
+                        <div class="select">
+                            <span class="selected">Credible and Factual</span>
+                            <div class="caret"></div>
+                        </div>
+                        <ul class="menu">
+                            <li class="active" value="2">Credible and Factual</li>
+                            <li value="1">Credible</li>
+                            <li value="0">Not credible</li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="province-container">
+                    <div id="province-title">
+                        Select province
+                    </div>
+                    <div id="provinceFilter" style="width: 100%; height: 600px; overflow-y: scroll;">
+                        <!-- Checkboxes for provinces will be added dynamically here -->
+                    </div>
+                </div>
+            </div>
+            </div>
+            <!-- <div id="sentimentFilter", style="width: 250px; height: 500px;">
+                <label> <input type="checkbox" id="negativeCheckbox" value="2" checked> Credible and Factual </label>
+                <label> <input type="checkbox" id="neutralCheckbox" value="1"> Credible </label>
+                <label> <input type="checkbox" id="positiveCheckbox" value="1"> Not credible </label>
+            </div>
+            <div id="provinceFilter" style="width: 250px; height: 500px;">
+            </div> -->
+        </div>
+		<script src="https://d3js.org/d3.v4.js"></script>
+        <!-- <script src="https://unpkg.com/d3@5.6.0/dist/d3.min.js"></script> -->
+        <!-- <script src="https://unpkg.com/d3-scale-chromatic@3.0.0/dist/d3-scale-chromatic.js"></script> -->
+        <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+        <script src="https://unpkg.com/d3-simple-slider"></script>
+		<script src=
+				"https://d3js.org/d3-geo-projection.v2.min.js">
+	</script>
+		<script src="{{ url_for('static', filename='js/bundle.js') }}">
+		</script>
+	</body>
+</html>
