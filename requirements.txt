@@ -1,0 +1,16 @@
+# This file may be used to create an environment using:
+# $ conda create --name <env> --file <this file>
+# platform: linux-64
+pytorch-crf
+transformers
+tokenizers
+torch
+torchaudio
+torchvision
+tqdm
+setuptools==58
+pygooglenews
+pymongo
+seleniumbase
+newspaper3k
+folium
