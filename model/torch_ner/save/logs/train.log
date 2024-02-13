@@ -1,0 +1,75 @@
+2023-08-03 10:38:14,567 - client_log - train_bert.py[line:196] - INFO: available device: cuda, count_gpu: 1
+2023-08-03 10:38:14,612 - client_log - train_bert.py[line:204] - INFO: loading label2id and id2label dictionary successful
+2023-08-03 10:38:40,039 - client_log - train_bert.py[line:196] - INFO: available device: cuda, count_gpu: 1
+2023-08-03 10:38:40,064 - client_log - train_bert.py[line:204] - INFO: loading label2id and id2label dictionary successful
+2023-08-03 10:39:05,484 - client_log - train_bert.py[line:196] - INFO: available device: cuda, count_gpu: 1
+2023-08-03 10:39:05,522 - client_log - train_bert.py[line:204] - INFO: loading label2id and id2label dictionary successful
+2023-08-03 10:40:09,312 - client_log - train_bert.py[line:196] - INFO: available device: cuda, count_gpu: 1
+2023-08-03 10:40:09,347 - client_log - train_bert.py[line:204] - INFO: loading label2id and id2label dictionary successful
+2023-08-03 10:40:51,124 - client_log - train_bert.py[line:196] - INFO: available device: cuda, count_gpu: 1
+2023-08-03 10:41:17,033 - client_log - train_bert.py[line:196] - INFO: available device: cuda, count_gpu: 1
+2023-08-03 10:41:35,678 - client_log - train_bert.py[line:196] - INFO: available device: cuda, count_gpu: 1
+2023-08-03 10:41:35,704 - client_log - train_bert.py[line:205] - INFO: {'I-PERSON': 0, 'B-ORGANISATION': 1, 'I-ORGANISATION': 2, 'B-PLACE': 3, 'I-PLACE': 4, 'O': 5, 'B-PERSON': 6}
+2023-08-03 10:48:19,086 - client_log - train_bert.py[line:196] - INFO: available device: cuda, count_gpu: 1
+2023-08-03 10:48:19,129 - client_log - train_bert.py[line:204] - INFO: loading label2id and id2label dictionary successful
+2023-08-03 10:49:02,874 - client_log - train_bert.py[line:196] - INFO: available device: cuda, count_gpu: 1
+2023-08-03 10:49:02,899 - client_log - train_bert.py[line:204] - INFO: loading label2id and id2label dictionary successful
+2023-08-03 10:49:12,791 - client_log - train_bert.py[line:214] - INFO: loading tokenizer, bert_config, and model successful
+2023-08-03 10:55:07,437 - client_log - train_bert.py[line:196] - INFO: available device: cuda, count_gpu: 1
+2023-08-03 10:55:07,475 - client_log - train_bert.py[line:204] - INFO: loading label2id and id2label dictionary successful
+2023-08-03 10:55:10,366 - client_log - train_bert.py[line:214] - INFO: loading tokenizer, bert_config, and model successful
+2023-08-03 10:55:10,367 - client_log - train_bert.py[line:219] - INFO: starting load train data and data_loader...
+2023-08-03 10:55:11,378 - client_log - train_bert.py[line:228] - INFO: end of data processing
+2023-08-03 11:00:16,088 - client_log - train_bert.py[line:196] - INFO: available device: cuda, count_gpu: 1
+2023-08-03 11:00:16,124 - client_log - train_bert.py[line:204] - INFO: loading label2id and id2label dictionary successful
+2023-08-03 11:00:18,284 - client_log - train_bert.py[line:214] - INFO: loading tokenizer, bert_config, and model successful
+2023-08-03 11:00:18,285 - client_log - train_bert.py[line:219] - INFO: starting load train data and data_loader...
+2023-08-03 11:00:18,337 - client_log - train_bert.py[line:228] - INFO: end of data processing
+2023-08-03 11:00:18,341 - client_log - train_bert.py[line:241] - INFO: loading AdamW optimizer、Warmup LinearSchedule and calculate optimizer parameter successful!
+2023-08-03 11:00:18,345 - client_log - train_bert.py[line:243] - INFO: ====================== Running training ======================
+2023-08-03 11:00:18,345 - client_log - train_bert.py[line:244] - INFO: Num Examples:  1672, Num Batch Step: 418, Num Epochs: 20, Num scheduler steps：1660
+2023-08-03 11:00:58,289 - client_log - train_bert.py[line:196] - INFO: available device: cuda, count_gpu: 1
+2023-08-03 11:00:58,314 - client_log - train_bert.py[line:204] - INFO: loading label2id and id2label dictionary successful
+2023-08-03 11:01:00,238 - client_log - train_bert.py[line:214] - INFO: loading tokenizer, bert_config, and model successful
+2023-08-03 11:01:00,239 - client_log - train_bert.py[line:219] - INFO: starting load train data and data_loader...
+2023-08-03 11:01:00,286 - client_log - train_bert.py[line:228] - INFO: end of data processing
+2023-08-03 11:01:00,289 - client_log - train_bert.py[line:241] - INFO: loading AdamW optimizer、Warmup LinearSchedule and calculate optimizer parameter successful!
+2023-08-03 11:01:00,290 - client_log - train_bert.py[line:243] - INFO: ====================== Running training ======================
+2023-08-03 11:01:00,290 - client_log - train_bert.py[line:244] - INFO: Num Examples:  1672, Num Batch Step: 418, Num Epochs: 20, Num scheduler steps：1660
+2023-08-03 11:10:17,904 - client_log - train_bert.py[line:199] - INFO: available device: cuda, count_gpu: 1
+2023-08-03 11:10:17,929 - client_log - train_bert.py[line:207] - INFO: loading label2id and id2label dictionary successful
+2023-08-03 11:10:19,897 - client_log - train_bert.py[line:217] - INFO: loading tokenizer, bert_config, and model successful
+2023-08-03 11:10:19,898 - client_log - train_bert.py[line:222] - INFO: starting load train data and data_loader...
+2023-08-03 11:10:19,951 - client_log - train_bert.py[line:231] - INFO: end of data processing
+2023-08-03 11:10:19,960 - client_log - train_bert.py[line:244] - INFO: loading AdamW optimizer、Warmup LinearSchedule and calculate optimizer parameter successful!
+2023-08-03 11:10:19,960 - client_log - train_bert.py[line:246] - INFO: ====================== Running training ======================
+2023-08-03 11:10:19,961 - client_log - train_bert.py[line:247] - INFO: Num Examples:  1672, Num Batch Step: 418, Num Epochs: 20, Num scheduler steps：1660
+2023-08-03 11:10:19,962 - client_log - train_bert.py[line:255] - INFO: ########[Epoch: 0/20]########
+2023-08-03 11:10:54,903 - client_log - train_bert.py[line:199] - INFO: available device: cuda, count_gpu: 1
+2023-08-03 11:10:54,927 - client_log - train_bert.py[line:207] - INFO: loading label2id and id2label dictionary successful
+2023-08-03 11:10:56,775 - client_log - train_bert.py[line:217] - INFO: loading tokenizer, bert_config, and model successful
+2023-08-03 11:10:56,776 - client_log - train_bert.py[line:222] - INFO: starting load train data and data_loader...
+2023-08-03 11:10:56,828 - client_log - train_bert.py[line:231] - INFO: end of data processing
+2023-08-03 11:10:56,832 - client_log - train_bert.py[line:244] - INFO: loading AdamW optimizer、Warmup LinearSchedule and calculate optimizer parameter successful!
+2023-08-03 11:10:56,832 - client_log - train_bert.py[line:246] - INFO: ====================== Running training ======================
+2023-08-03 11:10:56,832 - client_log - train_bert.py[line:247] - INFO: Num Examples:  1672, Num Batch Step: 418, Num Epochs: 20, Num scheduler steps：1660
+2023-08-03 11:10:56,834 - client_log - train_bert.py[line:255] - INFO: ########[Epoch: 0/20]########
+2023-08-03 11:10:57,257 - client_log - train_bert.py[line:258] - INFO: ####[Step: 0/418]####
+2023-08-03 11:14:53,136 - client_log - train_bert.py[line:199] - INFO: available device: cuda, count_gpu: 1
+2023-08-03 11:14:53,173 - client_log - train_bert.py[line:207] - INFO: loading label2id and id2label dictionary successful
+2023-08-03 11:14:55,388 - client_log - train_bert.py[line:217] - INFO: loading tokenizer, bert_config, and model successful
+2023-08-03 11:14:55,388 - client_log - train_bert.py[line:222] - INFO: starting load train data and data_loader...
+2023-08-03 11:14:55,438 - client_log - train_bert.py[line:231] - INFO: end of data processing
+2023-08-03 11:14:55,441 - client_log - train_bert.py[line:244] - INFO: loading AdamW optimizer、Warmup LinearSchedule and calculate optimizer parameter successful!
+2023-08-03 11:14:55,442 - client_log - train_bert.py[line:246] - INFO: ====================== Running training ======================
+2023-08-03 11:14:55,442 - client_log - train_bert.py[line:247] - INFO: Num Examples:  1672, Num Batch Step: 418, Num Epochs: 20, Num scheduler steps：1660
+2023-08-03 11:14:55,443 - client_log - train_bert.py[line:255] - INFO: ########[Epoch: 0/20]########
+2023-08-03 11:14:55,865 - client_log - train_bert.py[line:258] - INFO: ####[Step: 0/418]####
+2023-08-03 11:18:26,442 - client_log - train_bert.py[line:199] - INFO: available device: cuda, count_gpu: 1
+2023-08-03 11:18:26,479 - client_log - train_bert.py[line:207] - INFO: loading label2id and id2label dictionary successful
+2023-08-03 11:18:29,306 - client_log - train_bert.py[line:217] - INFO: loading tokenizer, bert_config, and model successful
+2023-08-03 11:18:29,307 - client_log - train_bert.py[line:222] - INFO: starting load train data and data_loader...
+2023-08-03 11:21:44,120 - client_log - train_bert.py[line:200] - INFO: available device: cuda, count_gpu: 1
+2023-08-03 11:21:44,145 - client_log - train_bert.py[line:208] - INFO: loading label2id and id2label dictionary successful
+2023-08-03 11:21:46,035 - client_log - train_bert.py[line:218] - INFO: loading tokenizer, bert_config, and model successful
+2023-08-03 11:21:46,035 - client_log - train_bert.py[line:223] - INFO: starting load train data and data_loader...
